@@ -1,0 +1,6 @@
+D:\Work Space\C#\Memory\Memory\dataLib\bin\Debug\dataLib.dll
+D:\Work Space\C#\Memory\Memory\dataLib\bin\Debug\dataLib.pdb
+D:\Work Space\C#\Memory\Memory\dataLib\obj\Debug\dataLib.csprojAssemblyReference.cache
+D:\Work Space\C#\Memory\Memory\dataLib\obj\Debug\dataLib.csproj.CoreCompileInputs.cache
+D:\Work Space\C#\Memory\Memory\dataLib\obj\Debug\dataLib.dll
+D:\Work Space\C#\Memory\Memory\dataLib\obj\Debug\dataLib.pdb

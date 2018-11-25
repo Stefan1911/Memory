@@ -1,0 +1,14 @@
+D:\Work Space\C#\Memory\Memory\Memory\bin\Debug\Memory.exe.config
+D:\Work Space\C#\Memory\Memory\Memory\bin\Debug\Memory.exe
+D:\Work Space\C#\Memory\Memory\Memory\bin\Debug\Memory.pdb
+D:\Work Space\C#\Memory\Memory\Memory\obj\Debug\Memory.csprojAssemblyReference.cache
+D:\Work Space\C#\Memory\Memory\Memory\obj\Debug\Memory.NewGameFrom.resources
+D:\Work Space\C#\Memory\Memory\Memory\obj\Debug\Memory.Properties.Resources.resources
+D:\Work Space\C#\Memory\Memory\Memory\obj\Debug\Memory.csproj.GenerateResource.cache
+D:\Work Space\C#\Memory\Memory\Memory\obj\Debug\Memory.csproj.CoreCompileInputs.cache
+D:\Work Space\C#\Memory\Memory\Memory\obj\Debug\Memory.exe
+D:\Work Space\C#\Memory\Memory\Memory\obj\Debug\Memory.pdb
+D:\Work Space\C#\Memory\Memory\Memory\obj\Debug\Memory.Form1.resources
+D:\Work Space\C#\Memory\Memory\Memory\bin\Debug\dataLib.dll
+D:\Work Space\C#\Memory\Memory\Memory\bin\Debug\dataLib.pdb
+D:\Work Space\C#\Memory\Memory\Memory\obj\Debug\Memory.csproj.CopyComplete
