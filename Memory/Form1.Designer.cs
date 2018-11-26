@@ -35,20 +35,18 @@
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripMenuItem();
             this.saveSettingsToolStripMenuItem = new System.Windows.Forms.ToolStripSeparator();
             this.saveSettingsToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.resizeGridToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.surrenderToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gameTable = new System.Windows.Forms.TableLayoutPanel();
             this.gameTimer = new System.Windows.Forms.Timer(this.components);
             this.lagTimer = new System.Windows.Forms.Timer(this.components);
-            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.surrenderToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.startToolStripMenuItem,
-            this.resizeGridToolStripMenuItem});
+            this.startToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(1187, 24);
@@ -94,12 +92,17 @@
             this.saveSettingsToolStripMenuItem1.Text = "Save Settings";
             this.saveSettingsToolStripMenuItem1.Click += new System.EventHandler(this.saveSettingsToolStripMenuItem1_Click);
             // 
-            // resizeGridToolStripMenuItem
+            // toolStripSeparator2
             // 
-            this.resizeGridToolStripMenuItem.Name = "resizeGridToolStripMenuItem";
-            this.resizeGridToolStripMenuItem.Size = new System.Drawing.Size(73, 20);
-            this.resizeGridToolStripMenuItem.Text = "resize Grid";
-            this.resizeGridToolStripMenuItem.Click += new System.EventHandler(this.resizeGridToolStripMenuItem_Click);
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(177, 6);
+            // 
+            // surrenderToolStripMenuItem
+            // 
+            this.surrenderToolStripMenuItem.Name = "surrenderToolStripMenuItem";
+            this.surrenderToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.surrenderToolStripMenuItem.Text = "Surrender";
+            this.surrenderToolStripMenuItem.Click += new System.EventHandler(this.surrenderToolStripMenuItem_Click);
             // 
             // gameTable
             // 
@@ -127,18 +130,6 @@
             this.lagTimer.Interval = 750;
             this.lagTimer.Tick += new System.EventHandler(this.lagTimer_Tick);
             // 
-            // toolStripSeparator2
-            // 
-            this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(177, 6);
-            // 
-            // surrenderToolStripMenuItem
-            // 
-            this.surrenderToolStripMenuItem.Name = "surrenderToolStripMenuItem";
-            this.surrenderToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.surrenderToolStripMenuItem.Text = "Surrender";
-            this.surrenderToolStripMenuItem.Click += new System.EventHandler(this.surrenderToolStripMenuItem_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -163,7 +154,6 @@
         private System.Windows.Forms.ToolStripMenuItem startToolStripMenuItem;
         private System.Windows.Forms.TableLayoutPanel gameTable;
         private System.Windows.Forms.ToolStripMenuItem newGameToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem resizeGridToolStripMenuItem;
         private System.Windows.Forms.Timer gameTimer;
         private System.Windows.Forms.Timer lagTimer;
         private System.Windows.Forms.ToolStripMenuItem toolStripSeparator1;

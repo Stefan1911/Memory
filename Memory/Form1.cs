@@ -38,15 +38,9 @@ namespace Memory
         }
 
         #region methodes
-        private void inicializeGame(Settings GameSettings)
-        {
-
-        }
         private void resizeGrid(int rows,int columns)
         {
             this.clearGrid();
-
-
             for(int i = 0; i < rows; ++i)
             {
                 gameTable.RowStyles.Add(new ColumnStyle(SizeType.Percent, 100 / rows));
@@ -132,6 +126,7 @@ namespace Memory
         }
         private void clearBoar()
         {
+            gameTable.Controls.Clear();
             while(gameTable.Controls.Count != 0){
                 gameTable.Controls.RemoveAt(0);
             }

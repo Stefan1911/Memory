@@ -25,6 +25,7 @@ namespace dataLib
             this.Image = this.back;
             reveled = false;
             emptyCard = isEmpltycard;
+            this.SizeMode = PictureBoxSizeMode.StretchImage;
         }
 
         public Bitmap Front { get => front;  }
