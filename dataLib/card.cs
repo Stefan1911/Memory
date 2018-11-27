@@ -51,5 +51,18 @@ namespace dataLib
         {
            return (this.pictureIndex == arg.pictureIndex) ? true : false;
         }
+
+        public void setCardBack(string path)
+        {
+            this.back = new Bitmap(path, true);
+            if (!this.reveled)
+                this.Image = this.back;
+        }
+        public void resetCardBack()
+        {
+            this.back = null;
+            if(!this.reveled)
+                this.Image = this.back;
+        }
     }
 }

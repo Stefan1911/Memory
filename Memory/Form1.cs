@@ -16,6 +16,7 @@ namespace Memory
         string cartFoldder;
         string cardBack;
         string emptyCard;
+        string movingBack;
 
         card firstCard;
         card secondCard;
@@ -24,12 +25,16 @@ namespace Memory
         Settings gameSettings;
         int gameTime;
 
+        int iGlobal;
+        int jGlobal;
+
         public Form1()
         {
             InitializeComponent();
             cartFoldder = "..\\..\\Assets\\";
             cardBack = null; //"C:\\Users\\bogos\\Downloads\\pepes\\back.png";
             emptyCard = "..\\..\\Assets\\noPepe.png";
+            movingBack = "D:\\wallpapers\\avatars\\ReinLogo.png";
             firstCard = null;
             secondCard = null;
             reveledPears = 0;
@@ -127,9 +132,9 @@ namespace Memory
         private void clearBoar()
         {
             gameTable.Controls.Clear();
-            while(gameTable.Controls.Count != 0){
+            /*while(gameTable.Controls.Count != 0){
                 gameTable.Controls.RemoveAt(0);
-            }
+            }*/
             this.clearGrid();
         }
         private void revealBoard()
@@ -201,6 +206,14 @@ namespace Memory
         private void gameTimer_Tick(object sender, EventArgs e)
         {
             this.gameTime++;
+
+            ((card)gameTable.GetControlFromPosition(jGlobal, iGlobal)).resetCardBack();
+
+            iGlobal = (iGlobal + 1) % gameSettings.Rows;
+            if (iGlobal == 0)
+                jGlobal = (jGlobal + 1) % gameSettings.Columns;
+
+            ((card)gameTable.GetControlFromPosition(jGlobal,iGlobal)).setCardBack(movingBack); 
         }
 
         private void lagTimer_Tick(object sender, EventArgs e)
@@ -216,6 +229,7 @@ namespace Memory
         {
             Settings startUpConfig = Settings.loadFromFile("..\\..\\settings\\startUpConfig.ini");
             this.newGame(startUpConfig);
+            ((card)gameTable.GetControlFromPosition(0, 0)).setCardBack(movingBack);
         }
 
 

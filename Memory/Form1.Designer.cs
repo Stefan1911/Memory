@@ -69,38 +69,38 @@
             // newGameToolStripMenuItem
             // 
             this.newGameToolStripMenuItem.Name = "newGameToolStripMenuItem";
-            this.newGameToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.newGameToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
             this.newGameToolStripMenuItem.Text = "New game";
             this.newGameToolStripMenuItem.Click += new System.EventHandler(this.newGameToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(180, 22);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(143, 22);
             this.toolStripSeparator1.Text = "Restart";
             this.toolStripSeparator1.Click += new System.EventHandler(this.toolStripSeparator1_Click);
             // 
             // saveSettingsToolStripMenuItem
             // 
             this.saveSettingsToolStripMenuItem.Name = "saveSettingsToolStripMenuItem";
-            this.saveSettingsToolStripMenuItem.Size = new System.Drawing.Size(177, 6);
+            this.saveSettingsToolStripMenuItem.Size = new System.Drawing.Size(140, 6);
             // 
             // saveSettingsToolStripMenuItem1
             // 
             this.saveSettingsToolStripMenuItem1.Name = "saveSettingsToolStripMenuItem1";
-            this.saveSettingsToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.saveSettingsToolStripMenuItem1.Size = new System.Drawing.Size(143, 22);
             this.saveSettingsToolStripMenuItem1.Text = "Save Settings";
             this.saveSettingsToolStripMenuItem1.Click += new System.EventHandler(this.saveSettingsToolStripMenuItem1_Click);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(177, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(140, 6);
             // 
             // surrenderToolStripMenuItem
             // 
             this.surrenderToolStripMenuItem.Name = "surrenderToolStripMenuItem";
-            this.surrenderToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.surrenderToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
             this.surrenderToolStripMenuItem.Text = "Surrender";
             this.surrenderToolStripMenuItem.Click += new System.EventHandler(this.surrenderToolStripMenuItem_Click);
             // 
